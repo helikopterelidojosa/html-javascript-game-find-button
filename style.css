@@ -1,0 +1,27 @@
+#winner-image {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./new-winner-image.jpg");
+  position: absolute;
+  margin: auto;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  opacity: 1;
+  background-color: aquamarine;
+  padding: 30px;
+  font-size: 40px;
+}
+
+#btn-start2 {
+  font-size: 40px;
+  padding: 20px;
+  background-color: blueviolet;
+  color: black;
+  font-weight: bold;
+}

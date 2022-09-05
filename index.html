@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Find button game</title>
-    <link rel="stylesheet" href="./00.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <button id="btn-start" onclick="startGameFunction()">Start game</button>
-    <div id="demo">
-
-        <div  id="winner-image">
-
-            <h1>You are winner!!!</h1>
-            <button id="btn-start2" onclick="location.reload();">Start new game</button>
-        </div>
-
-
-
+    <div id="game-area">
+      <div id="winner-image">
+        <h1>You are winner!!!</h1>
+        <button id="btn-start2" onclick="location.reload();">
+          Start new game
+        </button>
+      </div>
     </div>
 
-    
-    
-    <script src="./00.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
